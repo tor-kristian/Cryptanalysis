@@ -1,4 +1,5 @@
-# Meet in the middle attack on SPN for given plain-text/cipher-text pairs x, y and sbox and permutation
+# Meet in the middle attack on SPN for given plain-text/cipher-text pairs x, y described in Stinson’s ”Cryptography, theory and practice”, second edition, pages 74-79:
+# Algorithm recovers the 32-bit key.
 
 # All plaintext,ciphertext pairs (x,y)
 x1 = [0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0] 
